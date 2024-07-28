@@ -1,0 +1,14 @@
+.tree-view {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #a4a4a4;
+    padding: 32px 16px 16px;
+    position: relative;
+}
+
+.tree-refresh {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    cursor: pointer;
+}

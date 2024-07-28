@@ -1,0 +1,40 @@
+.tree-node {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 3px 0;
+    font-size: 18px;
+}
+
+.node-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.node-header span {
+    display: flex;
+    align-items: center;
+}
+
+.node-icon {
+    margin-right: 8px;
+}
+
+.node-actions {
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.node-actions .fa-plus, .node-actions .fa-trash {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.node-actions .fa-trash {
+    color: #dc3545;
+}
+
+.node-children {
+    margin-left: 20px;
+}
